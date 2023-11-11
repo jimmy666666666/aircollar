@@ -61,7 +61,7 @@ nav a:hover {
     padding: 10px 20px;
     margin-top: 20px;
     text-decoration: none;
-    background-color: #c0392b;
+    background-color: #3498db;
     color: #fff;
     font-size: 16px;
     border-radius: 20px;
@@ -69,20 +69,16 @@ nav a:hover {
 }
 
 .btn:hover {
-    background-color: #e74c3c;
+    background-color: #2980b9;
 }
 
 .product-details {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
+    flex-wrap: wrap;
 }
 
-.product-details > * {
-    margin: 10px; /* Adjust the margin as needed for spacing between items */
-}
 .product-description {
     max-width: 500px;
 }
@@ -111,15 +107,15 @@ nav a:hover {
 }
 
 .testimonial:hover {
-    background-color: #27ae60;
+    background-color: #2ecc71;
 }
 
 .keyfeatures {
-    border: 2px solid #2ecc71;
+    border: 2px solid #5eff8c;
     border-radius: 20px;
     padding: 50px;
     margin: 20px auto; /* Updated margin property to center the element */
-    background-color: #27ae60;
+    background-color: #2ecc71;
     transition: background-color 0.3s;
     max-width: 800px;
 }
@@ -148,14 +144,14 @@ form button {
 }
 
 form button {
-    background-color: #c0392b;
+    background-color: #3498db;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 form button:hover {
-    background-color: #e74c3c;
+    background-color: #2980b9;
 }
 
 footer {
