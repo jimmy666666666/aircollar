@@ -1,0 +1,166 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.productimage {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #c0392b;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e74c3c;
+}
+
+.product-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.product-details > * {
+    margin: 10px; /* Adjust the margin as needed for spacing between items */
+}
+.product-description {
+    max-width: 500px;
+}
+
+.features-list li {
+    border: 2px solid #3498db;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #2980b9;
+    transition: background-color 0.3s;
+}
+
+.features-list li:hover {
+    background-color: #3498db;
+}
+
+.testimonial {
+    border: 2px solid #3498db;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px auto; /* Updated margin property to center the element */
+    background-color: #2980b9;
+    transition: background-color 0.3s;
+    max-width: 800px;
+}
+
+.testimonial:hover {
+    background-color: #27ae60;
+}
+
+.keyfeatures {
+    border: 2px solid #2ecc71;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 20px auto; /* Updated margin property to center the element */
+    background-color: #27ae60;
+    transition: background-color 0.3s;
+    max-width: 800px;
+}
+
+.keyfeatures:hover {
+    background-color: #3498db;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form label {
+    margin: 10px;
+}
+
+form input,
+form textarea,
+form button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+form button {
+    background-color: #c0392b;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #e74c3c;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
